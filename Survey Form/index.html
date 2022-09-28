@@ -1,0 +1,55 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> A survey form to pass the first FCC RWD certification.
+      <form id="survey-form">
+        <fieldset>
+        <label for="name-label" id="name-label">Enter Your Name: <input id="name" name="name-label" type="text" placeholder="Anupam Pratihar" required /></label><br>
+        <label for="email-label" id="email-label">Enter Your Email: <input id="email" name="email-label" type="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="anupam@gmail.com" required /></label><br>
+         <label for="number-label" id="number-label">Enter a number: <input id="number" name="number-label" type="number" placeholder="76" required min="1" max="100"/></label><br>
+        
+       <label for="referrer">How did you hear about us?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp Site</option>
+                        <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+            </select><br>
+            <label>Are you human?</label>
+                <label for="person"><input id="person" type="radio" name="human" class="inline" value="yes" /> Yes</label>
+        <label for="robot"><input id="robot" type="radio" name="human" class="inline" value="no" /> No</label><br>
+        <label for="terms-and-conditions" name="terms-and-conditions"><a href="https://www.freecodecamp.org/news/terms-of-service/">Terms and conditions</a><br></label>
+            <input id="accept" type="checkbox" name="decision" value="all" checked> <label for="decision">I accept all points</label><br>
+            <input id="reject" type="checkbox" name="decision" value="point1"> <label for="decision">I accept point 1</label><br>
+<input id="reject" type="checkbox" name="decision" value="point2"> <label for="decision">I accept point 2</label><br>
+         </label>
+     
+          <label for="bio">Additional Comments:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </p>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
